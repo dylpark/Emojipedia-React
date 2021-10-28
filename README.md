@@ -1,2 +1,2 @@
-# Mapping-Components-Practice
+# Emojipedia-React
  Practice mapping components in React.
