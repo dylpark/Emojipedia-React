@@ -1,6 +1,6 @@
 import React from "react";
 
-Entry((props) => {
+function Entry(props) {
   return (
     <div className="term">
       <dt>
@@ -9,9 +9,9 @@ Entry((props) => {
         </span>
         <span>{props.name}</span>
       </dt>
-      <dd>{props.meaning}</dd>
+      <dd>{props.description}</dd>
     </div>
   );
-});
+}
 
 export default Entry;
